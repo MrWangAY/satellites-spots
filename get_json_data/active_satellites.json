@@ -1,0 +1,752 @@
+{
+  "2": [
+    "BulgariaSat-1"
+  ],
+  "3": [
+    "Eutelsat 3B",
+    "Rascom 1R"
+  ],
+  "5": [
+    "Astra 4A",
+    "SES 5"
+  ],
+  "7": [
+    "Eutelsat 7B",
+    "Eutelsat 7C",
+    "Eutelsat Konnect"
+  ],
+  "9": [
+    "Eutelsat 9B",
+    "Eutelsat KA-SAT 9A"
+  ],
+  "10": [
+    "Eutelsat 10A",
+    "Echostar 21"
+  ],
+  "11": [
+    "Inmarsat GX5"
+  ],
+  "13": [
+    "Eutelsat Hot Bird 13G",
+    "Eutelsat Hot Bird 13B",
+    "Eutelsat Hot Bird 13E"
+  ],
+  "16": [
+    "Eutelsat 16A"
+  ],
+  "17": [
+    "Amos 17"
+  ],
+  "19": [
+    "Astra 1N",
+    "Astra 1L",
+    "Astra 1KR",
+    "Astra 1G",
+    "Astra 1M"
+  ],
+  "20": [
+    "Arabsat 5C"
+  ],
+  "21": [
+    "Eutelsat 21B",
+    "GovSat-1"
+  ],
+  "23": [
+    "Astra 3B",
+    "Angosat 2"
+  ],
+  "24": [
+    "Skynet 5B"
+  ],
+  "25": [
+    "Es'hail 1",
+    "Alphasat I-XL",
+    "Es'hail 2"
+  ],
+  "26": [
+    "Badr 4",
+    "Badr 6",
+    "Badr 5",
+    "Badr 7"
+  ],
+  "28": [
+    "Astra 2F",
+    "Astra 2E",
+    "Astra 2G"
+  ],
+  "29": [
+    "XTAR-EUR"
+  ],
+  "31": [
+    "Arabsat 6A",
+    "Hylas 3",
+    "Turksat 5A",
+    "Arabsat 5A",
+    "Hylas 2",
+    "Astra 5B"
+  ],
+  "33": [
+    "Galaxy 14",
+    "Eutelsat 33E",
+    "Intelsat 28"
+  ],
+  "36": [
+    "Eutelsat 36B",
+    "Express AMU1"
+  ],
+  "38": [
+    "Paksat-1R",
+    "Athena Fidus"
+  ],
+  "39": [
+    "HellasSat 3",
+    "HellasSat 4"
+  ],
+  "40": [
+    "Express AM7"
+  ],
+  "42": [
+    "Turksat 4A",
+    "Turksat 5B",
+    "Turksat 3A",
+    "Nigcomsat 1R"
+  ],
+  "44": [
+    "Thuraya 2"
+  ],
+  "45": [
+    "Azerspace 2"
+  ],
+  "46": [
+    "Azerspace"
+  ],
+  "48": [
+    "Al Yah 2",
+    "Eutelsat Quantum",
+    "GSAT 19",
+    "GSAT 31"
+  ],
+  "49": [
+    "Yamal 601"
+  ],
+  "50": [
+    "Turksat 4B"
+  ],
+  "51": [
+    "BELINTERSAT-1"
+  ],
+  "52": [
+    "TurkmenAlem",
+    "Hylas 1"
+  ],
+  "53": [
+    "Express AM6",
+    "Al Yah 1",
+    "Skynet 5D"
+  ],
+  "55": [
+    "GSAT 16",
+    "GSAT 29",
+    "GSAT 8",
+    "Yamal 402"
+  ],
+  "56": [
+    "Express AT1",
+    "Inmarsat GX4"
+  ],
+  "57": [
+    "Astra 2A",
+    "NSS 12"
+  ],
+  "58": [
+    "Kazsat 3"
+  ],
+  "60": [
+    "Intelsat 33e"
+  ],
+  "61": [
+    "ABS-4"
+  ],
+  "62": [
+    "Intelsat 39"
+  ],
+  "63": [
+    "Inmarsat GX1"
+  ],
+  "64": [
+    "Intelsat 906",
+    "Inmarsat-4F2"
+  ],
+  "65": [
+    "Amos 4"
+  ],
+  "66": [
+    "Intelsat 17"
+  ],
+  "69": [
+    "Intelsat 20",
+    "Intelsat 36"
+  ],
+  "70": [
+    "Eutelsat 70B"
+  ],
+  "72": [
+    "Intelsat 22"
+  ],
+  "74": [
+    "GSAT 7",
+    "GSAT 11",
+    "GSAT 14",
+    "GSAT 18"
+  ],
+  "75": [
+    "ABS-2A",
+    "ABS-2"
+  ],
+  "76": [
+    "APSTAR 7"
+  ],
+  "79": [
+    "Thaicom 6",
+    "Thaicom 8"
+  ],
+  "80": [
+    "Express 80"
+  ],
+  "83": [
+    "GSAT 6",
+    "GSAT 30",
+    "GSat 12R",
+    "GSAT 24",
+    "GSAT 10"
+  ],
+  "84": [
+    "Inmarsat-6 F1"
+  ],
+  "85": [
+    "Intelsat 15"
+  ],
+  "86": [
+    "Kazsat 2"
+  ],
+  "88": [
+    "ST 2",
+    "Chinasat 12"
+  ],
+  "90": [
+    "Yamal 401"
+  ],
+  "91": [
+    "Measat 3A",
+    "Measat 3B",
+    "Measat 3D"
+  ],
+  "92": [
+    "ChinaSat 9"
+  ],
+  "93": [
+    "GSAT 15",
+    "JCSat 16",
+    "GSAT 17"
+  ],
+  "95": [
+    "SES 8",
+    "Luch 5V",
+    "Skynet 5A",
+    "SES 12"
+  ],
+  "96": [
+    "Express 103"
+  ],
+  "97": [
+    "GSAT 9"
+  ],
+  "98": [
+    "Chinasat 11",
+    "Thuraya 3"
+  ],
+  "101": [
+    "AsiaSat 5",
+    "ChinaSat 9B"
+  ],
+  "103": [
+    "Express AMU3"
+  ],
+  "105": [
+    "Asiasat 7",
+    "Asiastar 1"
+  ],
+  "108": [
+    "SES 7",
+    "SES 9",
+    "Telkom 4"
+  ],
+  "110": [
+    "Chinasat 16",
+    "BSat 3A",
+    "JCSat 110A",
+    "Bsat 4A",
+    "Bsat 4B",
+    "BSat 3B",
+    "ChinaSat 10",
+    "BSat 3C"
+  ],
+  "113": [
+    "Koreasat 5",
+    "Koreasat 5A"
+  ],
+  "116": [
+    "Koreasat 7",
+    "ChinaSat 6B",
+    "Koreasat 6"
+  ],
+  "118": [
+    "Telkom 3S"
+  ],
+  "119": [
+    "Bangabandhu-1",
+    "Thaicom 4"
+  ],
+  "120": [
+    "Asiasat 6"
+  ],
+  "122": [
+    "Asiasat 9"
+  ],
+  "124": [
+    "JCSat 4B"
+  ],
+  "125": [
+    "Chinasat 6D",
+    "Chinasat 26"
+  ],
+  "128": [
+    "LAOSat 1",
+    "JCSat 3A",
+    "COMS 1"
+  ],
+  "130": [
+    "Chinasat 6C"
+  ],
+  "132": [
+    "JCSat 5A",
+    "Vinasat 1",
+    "JCSat RA",
+    "Vinasat 2"
+  ],
+  "134": [
+    "APSTAR 6C",
+    "APSTAR 6D"
+  ],
+  "136": [
+    "JCSat 17"
+  ],
+  "138": [
+    "Telstar 18V"
+  ],
+  "140": [
+    "Express AT2",
+    "NBN-Co 1A",
+    "Express AM5"
+  ],
+  "142": [
+    "APSTAR 9"
+  ],
+  "143": [
+    "Inmarsat-4F1"
+  ],
+  "144": [
+    "Superbird C2"
+  ],
+  "145": [
+    "NBN-Co 1B",
+    "Express AMU7"
+  ],
+  "146": [
+    "PSN 6"
+  ],
+  "150": [
+    "BRIsat",
+    "JCSat 1C"
+  ],
+  "152": [
+    "Optus D2"
+  ],
+  "154": [
+    "JCSat 2B"
+  ],
+  "156": [
+    "Optus 10",
+    "Optus C1",
+    "Optus D3"
+  ],
+  "157": [
+    "Intelsat 1R"
+  ],
+  "159": [
+    "ABS-6"
+  ],
+  "160": [
+    "Optus D1"
+  ],
+  "162": [
+    "Superbird B3"
+  ],
+  "163": [
+    "Chinasat 19",
+    "Yamal 202"
+  ],
+  "166": [
+    "Intelsat 5",
+    "Intelsat 19"
+  ],
+  "167": [
+    "Luch 5A"
+  ],
+  "169": [
+    "Horizons 3E"
+  ],
+  "172": [
+    "Eutelsat 172B"
+  ],
+  "174": [
+    "Eutelsat 174A"
+  ],
+  "176": [
+    "NSS 11"
+  ],
+  "178": [
+    "Intelsat 10"
+  ],
+  "180": [
+    "Intelsat 18",
+    "Inmarsat GX3"
+  ],
+  "183": [
+    "NSS 9",
+    "Yamal 300K"
+  ],
+  "191": [
+    "NSS 6"
+  ],
+  "197": [
+    "Arcturus"
+  ],
+  "221": [
+    "Eutelsat 139 West A",
+    "AMC 6",
+    "Spaceway 2"
+  ],
+  "225": [
+    "SES 22"
+  ],
+  "227": [
+    "Galaxy 33"
+  ],
+  "229": [
+    "SES 21"
+  ],
+  "231": [
+    "Galaxy 34",
+    "Galaxy 12",
+    "Ciel 2",
+    "SES 15"
+  ],
+  "233": [
+    "Horizons 1"
+  ],
+  "235": [
+    "AMC 21",
+    "Galaxy 30"
+  ],
+  "237": [
+    "Galaxy 18"
+  ],
+  "239": [
+    "Galaxy 23",
+    "Galaxy 31"
+  ],
+  "241": [
+    "Anik F3",
+    "Directv 8",
+    "Echostar 14"
+  ],
+  "243": [
+    "Eutelsat 117 West A",
+    "Eutelsat 117 West B"
+  ],
+  "244": [
+    "Sirius FM-6"
+  ],
+  "245": [
+    "MexSat Bicentenario",
+    "Eutelsat 115 West B",
+    "XM 5",
+    "ViaSat 1"
+  ],
+  "247": [
+    "Eutelsat 113 West A",
+    "MexSat 2"
+  ],
+  "249": [
+    "Wildblue 1",
+    "AMC 11",
+    "Anik F2",
+    "Echostar T1"
+  ],
+  "250": [
+    "Echostar 10",
+    "Directv 5",
+    "Echostar 11",
+    "Echostar 23"
+  ],
+  "251": [
+    "Anik F1"
+  ],
+  "253": [
+    "Anik F1R",
+    "Echostar 17",
+    "Anik G1",
+    "AMSC 1"
+  ],
+  "255": [
+    "SES 11",
+    "AMC 15"
+  ],
+  "257": [
+    "Directv 10",
+    "Directv 12",
+    "SES 3",
+    "SES 20",
+    "Directv 15"
+  ],
+  "259": [
+    "Directv 16",
+    "Directv 9S",
+    "SES 1",
+    "Skyterra 1"
+  ],
+  "261": [
+    "Galaxy 16",
+    "Directv 11",
+    "Directv 14"
+  ],
+  "262": [
+    "Inmarsat-4F3"
+  ],
+  "263": [
+    "Galaxy 19",
+    "Echostar 19"
+  ],
+  "265": [
+    "Intelsat 30",
+    "Intelsat 31",
+    "Galaxy 3C",
+    "Spaceway 3",
+    "Galaxy 35"
+  ],
+  "267": [
+    "Echostar G1",
+    "Galaxy 11"
+  ],
+  "269": [
+    "Galaxy 17",
+    "Nimiq 6",
+    "Galaxy 32",
+    "Intelsat 40E"
+  ],
+  "271": [
+    "Galaxy 28",
+    "Galaxy 36"
+  ],
+  "273": [
+    "SES 2",
+    "Tupac Katari 1"
+  ],
+  "274": [
+    "Sirius FM-5"
+  ],
+  "275": [
+    "XM 3",
+    "Sirius XM8"
+  ],
+  "276": [
+    "Star One D1"
+  ],
+  "277": [
+    "AMC 18"
+  ],
+  "278": [
+    "Nimiq 4"
+  ],
+  "279": [
+    "ARSAT 2"
+  ],
+  "281": [
+    "Sky-Mexico 1"
+  ],
+  "283": [
+    "QuetzSat 1"
+  ],
+  "284": [
+    "Intelsat 16"
+  ],
+  "285": [
+    "Star One C3",
+    "SGDC 1"
+  ],
+  "286": [
+    "Hispasat 74W-1",
+    "Horizons 2"
+  ],
+  "287": [
+    "Nimiq 5"
+  ],
+  "288": [
+    "Astra 2C",
+    "AMC 3",
+    "ARSAT 1"
+  ],
+  "290": [
+    "Star One C4",
+    "Viasat 2",
+    "Star One D2"
+  ],
+  "293": [
+    "SES 10",
+    "SES 17"
+  ],
+  "295": [
+    "Eutelsat 65 West A",
+    "Star One C2"
+  ],
+  "297": [
+    "Telstar 14R",
+    "Telstar 19V"
+  ],
+  "299": [
+    "Echostar 16",
+    "Amazonas 5",
+    "Echostar 18",
+    "Amazonas 2",
+    "Echostar 15",
+    "Amazonas 3"
+  ],
+  "302": [
+    "Intelsat 21"
+  ],
+  "305": [
+    "Inmarsat GX2",
+    "Intelsat 34"
+  ],
+  "306": [
+    "Inmarsat-3F5"
+  ],
+  "307": [
+    "Intelsat 23"
+  ],
+  "310": [
+    "Intelsat 902",
+    "Intelsat 9"
+  ],
+  "313": [
+    "SES 14"
+  ],
+  "315": [
+    "Intelsat 14"
+  ],
+  "317": [
+    "Intelsat 11",
+    "Intelsat 32e"
+  ],
+  "320": [
+    "SES 6"
+  ],
+  "323": [
+    "NSS 10",
+    "Telstar 11N"
+  ],
+  "324": [
+    "Hispasat 36W-1"
+  ],
+  "326": [
+    "Hylas 4",
+    "Intelsat 35e"
+  ],
+  "328": [
+    "Intelsat 25"
+  ],
+  "330": [
+    "Hispasat 30W-5",
+    "Hispasat 30W-6",
+    "XTAR-LANT"
+  ],
+  "331": [
+    "Intelsat 904"
+  ],
+  "333": [
+    "Intelsat 901 + MEV1"
+  ],
+  "335": [
+    "AlComSat 1"
+  ],
+  "336": [
+    "Intelsat 905"
+  ],
+  "338": [
+    "SES 4"
+  ],
+  "340": [
+    "NSS 7",
+    "Al Yah 3"
+  ],
+  "342": [
+    "Luch",
+    "Skynet 5C",
+    "Intelsat 37e"
+  ],
+  "344": [
+    "Luch 5B"
+  ],
+  "345": [
+    "Telstar 12V"
+  ],
+  "346": [
+    "Express AM8"
+  ],
+  "348": [
+    "Eutelsat 12 West G",
+    "Eutelsat 12 West E"
+  ],
+  "349": [
+    "Express AM44"
+  ],
+  "350": [
+    "HellasSat 2"
+  ],
+  "352": [
+    "Eutelsat 8 West B"
+  ],
+  "353": [
+    "Nilesat 301",
+    "Nilesat 201",
+    "Eutelsat 7 West A"
+  ],
+  "355": [
+    "Eutelsat 5 West B"
+  ],
+  "356": [
+    "Amos 7",
+    "Amos 3"
+  ],
+  "357": [
+    "ABS-3A"
+  ],
+  "359": [
+    "Thor 7",
+    "Skynet 4E",
+    "Intelsat 10-02 + MEV2",
+    "Thor 5",
+    "Thor 6"
+  ]
+}
