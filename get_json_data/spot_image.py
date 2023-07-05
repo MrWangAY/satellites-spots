@@ -3,10 +3,14 @@ import math
 import os
 import urllib.request
 
+from selenium import webdriver
+
 '''
 根据json数据获取瓦片图片
 '''
-def get_img(pos, name, accrucy=4):
+
+
+def get_img(position, spot_alias, accuracy=4):
     base_url = "https://static.satbeams.com/tiles/"
     opener = urllib.request.build_opener()
     # 添加请求头
@@ -26,46 +30,43 @@ def get_img(pos, name, accrucy=4):
                          ("sec-ch-ua-mobile", "?0"),
                          ("sec-ch-ua-platform", "Windows")}
     urllib.request.install_opener(opener)
-    basefile = './beams/' + str(pos) + '/' + name
-    #  获取瓦片的数量
-    arr = math.pow(2, accrucy)
-    if not os.path.exists(basefile):
-        os.makedirs(basefile)
+    # 构建文件夹（./image/位置/卫星名称）
+    store_folder = './image/' + str(position) + '/' + spot_alias
+    # 获取瓦片的数量
+    arr = math.pow(2, accuracy)
+    if not os.path.exists(store_folder):
+        os.makedirs(store_folder)
     for i in range(int(arr)):
         for j in range(int(arr)):
-            url = base_url + name + '/' + str(accrucy) + '/' + str(i) + "/" + str(j) + ".png"
-            filename = basefile + '/' + str(accrucy) + '-' + str(i) + "-" + str(j) + ".png"
+            # 依次在 i*j 方阵中寻找可以下载的波片
+            url = base_url + spot_alias + '/' + str(accuracy) + '/' + str(i) + "/" + str(j) + ".png"
+            filename = store_folder + '/' + str(accuracy) + '-' + str(i) + "-" + str(j) + ".png"
             print(url, filename)
             try:
-                if(os.path.exists(filename)):
+                if os.path.exists(filename):
                     continue
+                # 执行下载操作
                 urllib.request.urlretrieve(url=url, filename=filename)
             except:
                 print(url + " download false")
 
 
 if __name__ == '__main__':
-    # f= open("beams.json")
-    # beams = json.load(f)
-    # for beam in beams["beams"][:3]:
-    #     if(beam["download"]==False):
-    #         get_img(3,beam["name"])
-    #         beam["download"] =True
-    # with open("beams.json","w+")as f:
-    #     f.write(json.dumps(beams))
-    with open("be11ams.json",'rb') as f:
-        params = json.load(f)
-        for param in params["beams"]:
-            if(param["download"]==False):
-                get_img(param["pos"],param["name"])
-                param["download"] = True
-                f.close()
-                with open("beams1.json",'w') as r:
-                    json.dump(params,r)
-                f.close()
-            else:
-                continue
-
-
-
-
+    # 构造以位置为键，spot_alias 数组为值的字典数组，便于图片爬取
+    pos_spot_array = []
+    # 打开footprints文件
+    with open("footprints_satellites_1.json", 'rb') as a:
+        satellites_spots = json.load(a)
+        for key, value in satellites_spots.items():
+            for satellite, spots in value.items():
+                for spot in spots:
+                    spot_alias_dict = {}
+                    # 添加该位置下的spot_alias数组
+                    spot_alias_dict["pos"] = key
+                    spot_alias_dict["spot_alias"] = spot['spot_alias']
+                    pos_spot_array.append(spot_alias_dict)
+    pos_spot_array
+    # 遍历上方数组，爬取图片
+    for pos_spot in pos_spot_array:
+        # 根据位置和波片别名爬取图片
+        get_img(pos_spot['pos'], pos_spot['spot_alias'])

@@ -35,7 +35,7 @@ def analyze_footprints_satellites():
             data_foot_prints_result[key] = value
         # 根据位置进行内部元素排序
         satellites = {str(key_sort): satellites[str(key_sort)] for key_sort in sorted(list(map(int, satellites.keys())))}
-        with open('footprints_analysis_result.json', 'w+', encoding='utf-8') as f:
+        with open('footprints_analysis_result_1.json', 'w+', encoding='utf-8') as f:
             json.dump(satellites, f, indent=2)
         print('卫星数量为 ：' + str(sat_total_number))
     return satellites, active_satellites
@@ -87,12 +87,13 @@ if __name__ == '__main__':
                         zero_number += 1
                         # 在字典中更新footprints不包含的卫星，并设置波片数目为0
                         (satellites[key])[v] = 0
-    with open('active_satellites_analysis_result.json', 'w+', encoding='utf-8') as f:
+    with open('active_satellites_analysis_result_1.json', 'w+', encoding='utf-8') as f:
         json.dump(satellites, f, indent=2, ensure_ascii=False)
     print('spot数目为0的卫星数量为 ：' + str(zero_number))
     # 将含有spot = 0的位置进行统计，并自动点击网页查看
-    # invalid_position_array = list(set(invalid_position_array))
-    # invalid_position_array.sort()
+    invalid_position_array = list(set(invalid_position_array))
+    invalid_position_array.sort()
+    print(invalid_position_array)
     # check(invalid_array)
 
 
