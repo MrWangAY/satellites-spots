@@ -77,7 +77,7 @@ if __name__ == '__main__':
     for pos in available_position:
         browser.get("https://satbeams.com/footprints?position=" + str(pos))
         # 设置延时请求
-        browser.implicitly_wait(5)
+        time.sleep(5)
         # 获取该精度下的卫星数量
         sat_number = browser.find_elements(by=By.XPATH, value='//div[@id="beams_bar"]/table/tbody/tr/td')
         sat_number_total += len(sat_number)
