@@ -49,8 +49,7 @@ if __name__ == '__main__':
     position_folder = '../get_json_data/image_completed'
     # 获取位置信息
     positions = os.listdir(position_folder)
-    # positions = sorted(list(map(int, positions)))
-    positions = [60]
+    positions = sorted(list(map(int, positions)))
     for position in positions:
         position = str(position)
         # 获取卫星名称
