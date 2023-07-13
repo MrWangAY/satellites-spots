@@ -13,7 +13,7 @@ def analyze_footprints_satellites():
     # 统计footprints中存在波片的卫星数目
     sat_total_number = 0
     # 读取文件
-    with open("footprints_satellites.json", 'rb') as a:
+    with open("footprints_satellites_v2.json", 'rb') as a:
         satellites_spots = json.load(a)
         for key, value in satellites_spots.items():
             sat_total_number += len(value)
@@ -93,6 +93,7 @@ if __name__ == '__main__':
     # 将含有spot = 0的位置进行统计，并自动点击网页查看
     # invalid_position_array = list(set(invalid_position_array))
     # invalid_position_array.sort()
+    # print(invalid_position_array)
     # check(invalid_array)
 
 

@@ -55,7 +55,7 @@ if __name__ == '__main__':
     # 构造以位置为键，spot_alias 数组为值的字典数组，便于图片爬取
     pos_spot_array = []
     # 打开footprints文件
-    with open("footprints_satellites_1_1.json", 'rb') as a:
+    with open("footprints_satellites_1_2_2.json", 'rb') as a:
         satellites_spots = json.load(a)
         for key, value in satellites_spots.items():
             for satellite, spots in value.items():
